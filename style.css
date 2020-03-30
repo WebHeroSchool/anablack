@@ -5,10 +5,16 @@
   .header {
     font-size: 10;
   }
+  .main__title {
+    font-size: 20px
+  }
 }
 @media(min-width: 667px) {
   .header {
     font-size: 20;
+  }
+  .main__title {
+    font-size: 40px
   }
 }
 .header {
