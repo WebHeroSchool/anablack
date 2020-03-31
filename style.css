@@ -1,10 +1,25 @@
 .body {
   background-color: #FFDAB9;
 }
+@media(min-width: 375px) {
+  .header {
+    font-size: 10;
+  }
+  .main__title {
+    font-size: 20px
+  }
+}
+@media(min-width: 667px) {
+  .header {
+    font-size: 20;
+  }
+  .main__title {
+    font-size: 40px
+  }
+}
 .header {
   color: #DB7093;
   margin: 0 50px 50px 0;
-  font-size: 15px;
   transition: color 1s;
   cursor: pointer;
 }
@@ -15,6 +30,7 @@
   font-family: brush script mt;
   font-size: 2em;
 }
+
 .main__quot {
     border: -2px solid #CD853F;
     border-radius: 10px;
@@ -39,15 +55,6 @@
      color: #800080;
      box-shadow: 0 0 7px #000;
    }
-  .main__title {
-     font-size: 20px;
-     transition: 2s ease-out;
-     opacity: 0.5;
-   }
-   .main__title:hover {
-    font-size: 40px;
-    opacity: 1;
-   }
    .footer__data {
      transition-delay: 2s;
    }
@@ -55,8 +62,7 @@
      border: 3px inset #9F908F;
      width: 100px;
      }
- 
-.menu__icon {
+     .menu__icon {
    display: none;
    width: 45px;
    height: 35px;
